@@ -3,10 +3,11 @@ import '../App.css';
 import Footer from "../components/Footer";
 import styled from "styled-components";
 
-function SportsPage() {
+function NerdPage() {
     return (
         <div>
-            <TopBanner>SportsPage</TopBanner>
+            <TopBanner>Welcome to the Nerd Page!</TopBanner>
+
             <Footer/>
         </div>
     )
@@ -21,4 +22,4 @@ const TopBanner = styled.div`
     border: 3px solid green;
 `
 
-export default SportsPage;
+export default NerdPage;
