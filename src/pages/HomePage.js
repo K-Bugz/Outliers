@@ -9,7 +9,6 @@ import Footer from "../components/Footer";
 function HomePage() {
 
     const {isShowing, toggle} = useModal();
-    // const [openModal, setOpenModal] = useState(false);
       
     return (
         <div>

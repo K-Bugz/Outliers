@@ -2,11 +2,12 @@ import React from "react";
 import styled from "styled-components";
 import '../App.css';
 
-function TopBanner(text) {
+function TopBanner(props) {
+    const {text} = props
     return (
         <React.Fragment>
             <TopBannerContainer>
-            Welcome to Outliers! Were we love the strange and unique.
+                {text}
             </TopBannerContainer>
         </React.Fragment>
     )
@@ -14,10 +15,11 @@ function TopBanner(text) {
 
 
 const TopBannerContainer = styled.div`
-    background-color: #4bff1f;
+    background-color: #000000;
+    color: #edd698;
     font-size: 32px;
-    height: 80px;
-    line-height: 70px;
+    height: 50px;
+    line-height: 50px;
     text-align: center;
     border: 3px solid #edd698;
 `

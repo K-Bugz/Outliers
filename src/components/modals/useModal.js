@@ -1,6 +1,6 @@
 import { useState } from 'react';
 
-// Always prefix hoooks with teh use. 
+// Always prefix hoooks with the use. 
 
 const useModal = () => {
   const [isShowing, setIsShowing] = useState(false);
